@@ -4,6 +4,8 @@ import struct
 import keystone
 from xiaotea import XiaoTea
 
+#sike
+
 # https://web.eecs.umich.edu/~prabal/teaching/eecs373-f10/readings/ARMv7-M_ARM.pdf
 MOVW_T3_IMM = [*[None]*5, 11, *[None]*6, 15, 14, 13, 12, None, 10, 9, 8, *[None]*4, 7, 6, 5, 4, 3, 2, 1, 0]
 MOVS_T1_IMM = [*[None]*8, 7, 6, 5, 4, 3, 2, 1, 0]
